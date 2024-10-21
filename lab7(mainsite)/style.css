@@ -1,0 +1,333 @@
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+button{
+  border: none;
+}
+
+.header{
+  background-image: url("images/man.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 990px 1161px;
+  height: 1161px;
+
+  .novigation{
+    display: flex;
+    font-size:large;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: auto;
+    border: solid black;
+    border-radius: 3px;
+    border-width: 1px;
+
+    .orientation{
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      height: 24px;
+      width: 245px;
+      gap: 60px;
+      display: flex;
+      margin-left: 165px;
+    }
+    .orientation a{
+      color: rgb(80,95,152);
+      text-decoration: none;
+    }
+    .logo{
+      margin-right: 505px;
+      margin-left: 505px;
+      height: 38px;
+      width: 95px;
+      color: #37447e;
+      display: flex;
+      font-size: 26px;
+      font-weight: bold;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #top-button{
+      border: #111b47;
+      border-radius: 2px;
+      display: flex;
+      background-color: #111b47;
+      color: white;
+      align-items: center;
+      justify-content: center;
+      margin-right: 165px;
+      height: 26px;
+      width: 160px;
+      font-size: 12px;
+      flex-shrink: 0;
+    }
+  }
+  .introducing{
+    margin-top: 292px;
+    margin-left: 370px;
+    margin-right: 1204px;
+    margin-bottom: 388px;
+    width: 539px;
+    height: 421px;
+    .short-info{
+      font-size: 19px;
+      margin-bottom: 69px;
+      font-size: 18px;
+      font-weight: 400;
+      color: #505f98;
+    }
+    .intro-buttons{
+      display: flex;
+      justify-content: center;
+      justify-content: space-between ;
+    }
+    .intro-buttons button:nth-child(1){
+      background-color: #111b47;
+      color: white;
+      border-radius: 3px;
+      width: 189px;
+      height: 36px;
+      font-size: 16px;
+    }
+    .intro-buttons button:nth-child(2){
+      background: none;
+      border-radius: 3px;
+      width: 189px;
+      height: 36px;
+      font-size: 16px;
+    }
+  }
+  .introducing h2{
+    font-size: 50px;
+    font-weight: 500;
+  }
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.first-block{
+  display: grid;
+  grid-template-columns: 735px 735px;
+  justify-content: center;
+  align-content: center;
+
+  .first-content-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 204px 138px;
+    grid-row-gap: 80px;
+    grid-column-gap: 8px;
+
+    .upper1{
+      grid-column: 1/3;
+      width: 504px;
+      height: 204px;
+      padding-bottom: 80px;
+    }
+    .upper1 h3{
+      font-size: 36px;
+      font-weight: 500;
+    }
+    .icon-block{
+      width: 255px;
+      height: 138px;
+      font-size: 12px;
+      font-weight: 400;
+      color: #505f98;
+    }
+    .icon-block h4{
+      font-size: 16px;
+      font-weight: 500;
+      color: black;
+    }
+  }
+  .firstWI{
+    width: 540px;
+    height: 524px;
+  }
+  .firstWI img{
+    width: 540px;
+    height: 524px;
+  }
+
+}
+
+/* -------------------------------------------------------------------------------- */
+
+footer{
+  background-image: url("images/rectangle.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 980px;
+
+
+  .footer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 237px;
+    height: 600px;
+
+    #price-text{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      font-weight: 500;
+      margin-bottom: 0px;
+      color: #091133;
+    }
+
+    #price-description{
+      display: flex;
+      justify-content: center;
+      width: 600px;
+      margin-top: 16px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #6F7CB2;
+    }
+
+    #price{
+      font-size: 50px;
+      font-weight: 500;
+      color: #222F65;
+      margin-top: 35px;
+      margin-bottom: 0px;
+    }
+
+    #ui{
+      color: #37447E;
+      font-size: 16px;
+      font-weight: 400px;
+      margin-top: 8px;
+      margin-bottom: 0px;
+    }
+
+    #butndesc{
+      color: #5D6970;
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 60px;
+      margin-bottom: 0px;
+    }
+
+    #purchase-button{
+      background-color: #111B47;
+      width: 189px;
+      height: 32px;
+      border-radius: 2px;
+      font-size: 14px;
+      font-weight: 500px;
+      color: white;
+      margin-top: 9px;
+      margin-bottom: 80px;
+    }
+  }
+
+  .end{
+    height: 160px;
+    background-color: #E7ECFF;
+
+    .bottom-direction{
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+    }
+
+    .bottom-direction p{
+      color: #939EA4;
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    .bottom-direction h3{
+      color: #37447E;
+      font-size: 26px;
+      font-weight: 900;
+    }
+
+    .bottom-direction button{
+      width: 109px;
+      height: 26px;
+      background-color: #111B47;
+      color: white;
+      font-size: 12px;
+      font-weight: 500;
+      border-radius: 2px;
+    }
+
+    #line{
+      display: flex;
+      align-items: center;
+      height: 2px;
+      width: 1110px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+    }
+
+    .bottom-info{
+      display: flex;
+      align-items: center;
+      padding-left: 259px;
+      padding-right: 259px;
+      gap: 910px;
+
+      .bottom-links{
+        display: flex;
+        gap: 60px;
+      }
+
+      .bottom-links a{
+        color: #929ECC;
+        text-decoration: none;
+      }
+
+      .media{
+        display: flex;
+        gap: 30px;
+      }
+      .media button{
+        width: 16px;
+        height: 16px;
+      }
+
+      #facebook{
+        background-image: url(images/mediaIcons/facebook.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      #in{
+        background-image: url(images/mediaIcons/in.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      #twitter{
+        background-image: url(images/mediaIcons/twitter.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      #youtube{
+        background-image: url(images/mediaIcons/youtude.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      #instagram{
+        background-image: url(images/mediaIcons/instagram.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+    }
+  }
+}
